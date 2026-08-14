@@ -1,0 +1,21 @@
+/** Redirecciones permanentes desde las URLs HTML antiguas hacia las rutas Next.js */
+export const legacyRedirects: { from: string; to: string }[] = [
+  { from: "/index.html", to: "/" },
+  { from: "/iphone14pro.html", to: "/iphone/iphone-14-pro-128gb-negro" },
+  { from: "/iphone14.html", to: "/iphone/iphone-14-128gb-blanco" },
+  { from: "/iphone13promaxverde.html", to: "/iphone/iphone-13-pro-max-128gb-verde-oscuro" },
+  { from: "/iphone13blanco.html", to: "/iphone/iphone-13-128gb-rosa" },
+  { from: "/iphone13negro.html", to: "/iphone/iphone-13-128gb-negro" },
+  { from: "/iphone16.html", to: "/iphone/iphone-16-128gb-blanco" },
+  { from: "/iphone13promaxceleste.html", to: "/iphone/iphone-13-pro-max-256gb-celeste" },
+  { from: "/iphone13pro.html", to: "/iphone/iphone-13-pro-128gb" },
+  { from: "/iphone13promaxnegro.html", to: "/iphone/iphone-13-pro-max-128gb-negro" },
+  { from: "/iphone16azul.html", to: "/iphone/iphone-16-128gb-azul" },
+  { from: "/iphone15pro.html", to: "/iphone/iphone-15-pro-128gb" },
+  { from: "/iphone16sellado.html", to: "/iphone/iphone-16-128gb-sellado" },
+  { from: "/iphone16promax.html", to: "/iphone/iphone-16-pro-max-256gb" },
+  { from: "/iphone17.html", to: "/iphone/iphone-17-256gb-sellado" },
+  { from: "/iphone17pro.html", to: "/iphone/iphone-17-pro-256gb-sellado" },
+  { from: "/iphone17promax.html", to: "/iphone/iphone-17-pro-max-256gb-sellado" },
+  { from: "/iphone11blanco.html", to: "/iphone/iphone-11-128gb-blanco" },
+];
