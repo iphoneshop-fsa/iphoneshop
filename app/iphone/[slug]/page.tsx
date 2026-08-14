@@ -9,7 +9,7 @@ import {
   REVALIDATE_SECONDS,
 } from "@/lib/iphones";
 
-export const revalidate = REVALIDATE_SECONDS;
+export const revalidate = 60;
 
 interface PageProps {
   params: Promise<{ slug: string }>;
