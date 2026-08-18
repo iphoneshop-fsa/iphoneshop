@@ -7,7 +7,7 @@ import {
 } from "./csv";
 import { ensureUniqueSlugs, generateSlug } from "./slug";
 
-export const REVALIDATE_SECONDS = 60;
+export const REVALIDATE_SECONDS = 30;
 
 function formatModelo(raw: string): string {
   let name = raw.trim();
