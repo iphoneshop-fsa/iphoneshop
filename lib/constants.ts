@@ -13,7 +13,7 @@ export interface IPhone {
 }
 
 export const SHEET_CSV_URL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5WoBaqQ6m3H2LZyHTPVRBEr-aEaM-s-bofsA6Ck_lz3_vYZ5pZnQn71WsmGd7sRYxx8dyG2NTh0Tz/pub?output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTEbAVdg4xrjaGXFfxxoOb56GxRA5_myqltQnbhHpqNYhf1XBxeHqAMu7SWxsx15A9ZFE8GFymQ-V9U/pub?output=csv";
 
 export const WHATSAPP_NUMBER = "5493704281082";
 export const INSTAGRAM_URL =
